@@ -1,0 +1,24 @@
+Package: vaRSel
+Type: Package
+Title: Forward Variable Selection for Random Forests
+Version: 0.1.0
+Authors@R: person("Jasper", "Velthoen", email = "j.j.velthoen@tudelft.nl",
+                  role = c("aut", "cre"))
+Description: Functions for using Forward Variable selection using random Forests. The grf-package implementation is used as the basic random forests algorithm.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    grf,
+    ranger,
+    ggplot2,
+    scoringRules,
+    MASS,
+    lubridate,
+    gamlss,
+    purrr,
+    gridExtra,
+    tidyr,
+    magrittr
+RoxygenNote: 6.1.1
